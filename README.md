@@ -19,11 +19,11 @@ This project is a web application for Delani studio that shows details about the
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone 
+* git clone '''gh repo clone TheCaffeine/Delani-Studio
 
 * cd Delani-Studio
 
-* code . or atom . depending on the text editor of your choise.
+* code 
 
 ## Technologies Used
 
@@ -31,7 +31,7 @@ This project is a web application for Delani studio that shows details about the
 * [CSS](https://github.com/topics/css3)
 * [Bootstrap](https://github.com/topics/bootstrap)
 * [jQuery](https://github.com/topics/javascript)
-* markdown
+
 
 
 ## BDD
