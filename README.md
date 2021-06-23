@@ -13,7 +13,7 @@ This project is a web application for Delani studio that shows details about the
 <img src="
 
 ## Live Page 
-
+https://github.com/TheCaffeine/Delani-Studio.git
 
 
 ## Installation / Setup instruction
