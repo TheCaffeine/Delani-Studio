@@ -89,3 +89,34 @@
                             defaults.buttonSelector.text(defaults.buttonText);
                         }
     
+                        // Add event on error
+                        $(document).trigger('mailChimpSuccess');
+    
+                        // Run callback
+                        defaults.onMailChimpSuccess.call();
+                    } else { // If there is an error
+                        // If error message parameter is not empty
+                        if (defaults.errorMessage !== '') {
+                            // Replace the default error message with parameter
+                            responseMessage = defaults.errorMessage;
+                        }
+    
+                        // If button text parameter is not empty
+                        if (defaults.buttonText !== '') {
+                            // Replace the default button text with the original text
+                            defaults.buttonSelector.text(originalButtonText);
+                        }
+    
+                        // Add event on error
+                        $(document).trigger('mailChimpError');
+    
+                        // Run callback
+                        defaults.onMailChimpError.call();
+                    }
+    
+                    // Show the message
+                    $responseContainer.html(responseMessage);
+                });
+            });
+        };
+    })(jQuery, window, document);
