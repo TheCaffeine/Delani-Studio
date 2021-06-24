@@ -3,7 +3,7 @@ html{
   scroll-behavior: smooth;
 }
 .landing{
-  background-image: url('leaves_bg.jpg');
+  background-image: url('images/backgrounds');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
