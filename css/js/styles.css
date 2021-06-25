@@ -2,8 +2,14 @@
 html{
   scroll-behavior: smooth;
 }
+
+
+body {
+  background-image: url("images/Leaves_bg.jpg");
+  background-color: #cccccc;
+ }
+
 .landing{
-  background-image: url('images/Leaves_bg.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
